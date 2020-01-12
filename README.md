@@ -1,6 +1,7 @@
 # algorithms-data_structures
 #### This repositor is dedicated to tracking progress made on learning new algorithms and data structures useful in areas of Computer Engineering. 
  #### References will be taken from www.leetcode.com
+ ![](images/lc.png)
 
 ## Topics include: 
 * **Linked Lists**
