@@ -8,18 +8,13 @@ Topics include:
     * Pre-order
     * In-order
     * Post-Order
+    * Breadth First Search
+    * Depth First Search
 
-Sorting Algoriths
-o	Insertion 
-o	Selection
-o	Merge
-o	Quick
-o	Shortest path
-•	Trees/Graphs
-o	Pre order
-o	Post order
-o	Level order
-o	BFS
-o	DFS
-o	Sorting Algorithms
-•	Sliding window
+* **Sorting Algoriths**
+    * Insertion 
+    * Selection
+    * Merge
+    * Quick
+    * Shortest path
+* **Sliding Window**
