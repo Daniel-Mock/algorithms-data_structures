@@ -3,21 +3,30 @@
  #### Reference: www.leetcode.com
  ![](images/lc.png)
 
-## Topics include: 
+## Schedule & Topics: 
+
+### Jan 6 - Feb 16 
 * **Linked Lists**
-* **Stacks/Queues**
-* **Hash Tables**
 * **Tree Traversals**
     * Pre-order
     * In-order
     * Post-Order
+* **Graphs**
     * Breadth First Search
     * Depth First Search
+* **Stacks/Queues**
+* **Hash Tables**
 
+### Feb 17 - March 15
 * **Sorting Algoriths** 
     * Insertion 
     * Selection
     * Merge
     * Quick
     * Shortest path
+    
+### March 16 - April 5 
 * **Sliding Window**
+
+### April 6 - April 23
+* **Review topics**
