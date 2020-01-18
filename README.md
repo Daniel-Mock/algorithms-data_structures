@@ -27,6 +27,7 @@
     
 ### March 16 - April 5 
 * **Sliding Window**
+* **Dynamic Programming**
 
 ### April 6 - April 23
 * **Review topics**
