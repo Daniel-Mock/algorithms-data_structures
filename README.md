@@ -30,7 +30,9 @@
 * **Dynamic Programming**
 
 ### April 6 - April 23
-* **Review topics**
+* **Review topics***
 
 ## Useful Links:
 * https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
+* https://www.careercup.com/
+* https://leetcode.com/discuss/career/216554/from-0-to-clearing-uberappleamazonlinkedingoogle
