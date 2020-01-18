@@ -11,6 +11,8 @@
     * Pre-order
     * In-order
     * Post-Order
+* **Identify Characteristics Of & Manipulate Trees**
+    *Working with BST's to determine characteristics or manipulate in a certain way
 * **Graphs**
     * Breadth First Search
     * Depth First Search
