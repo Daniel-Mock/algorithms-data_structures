@@ -16,6 +16,7 @@
 * **Graphs**
     * Breadth First Search
     * Depth First Search
+    *Tries
 * **Stacks/Queues**
 * **Hash Tables**
 
