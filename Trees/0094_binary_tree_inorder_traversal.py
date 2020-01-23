@@ -9,7 +9,6 @@
 #                                                                         #
 ###########################################################################
 
-
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -18,7 +17,24 @@
 #         self.right = None
 
 class Solution:
+    #Recursive
     def inorderTraversal(self, root: TreeNode) -> List[int]:
+        if root is None: return
+        lst = []
+        return self.recurse(root,lst)
+
+    def recurse(self, root, lst):
+        if root is None: return lst
+
+        self.recurse(root.left, lst)
+        lst.append(root.val)
+        self.recurse(root.right, lst)
+
+
+        return lst
+
+    '''
+        #Iterative
         if root is None: return root
         stack = []
         out = []
@@ -33,3 +49,4 @@ class Solution:
                 node = node.right
             else: break
         return out
+     '''
