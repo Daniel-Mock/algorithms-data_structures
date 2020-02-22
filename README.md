@@ -5,7 +5,7 @@
 
 ## Schedule & Topics: 
 
-### Jan 6 - Feb 16 
+### Jan 6 - March 1 (4 weeks)
 * **Linked Lists**
 * **Tree Traversals**
     * Pre-order
@@ -20,7 +20,7 @@
 * **Stacks/Queues**
 * **Hash Tables**
 
-### Feb 17 - March 15
+### March 2 - March 23 (3 Weeks)
 * **Sorting Algoriths** 
     * Insertion 
     * Selection
@@ -28,11 +28,11 @@
     * Quick
     * Shortest path
     
-### March 16 - April 5 
+### March 16 - April 5 (3 weeks)
 * **Sliding Window**
 * **Dynamic Programming**
 
-### April 6 - April 23
+### April 6 - April 23 (2 weeks)
 * **Review topics***
 
 ## Useful Links:
@@ -40,3 +40,4 @@
 * https://www.careercup.com/
 * https://leetcode.com/discuss/career/216554/from-0-to-clearing-uberappleamazonlinkedingoogle
 * https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide
+* https://www.techiedelight.com/ - explanation of some algorithms with pseudo code
