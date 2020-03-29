@@ -44,7 +44,6 @@
 * https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns/439810 - Dynamic Programming Patterns
 
 ## Sorting Algorithms Reference:
-<p align="center">
  
 ![](images/insertionsort.png)
 
@@ -53,4 +52,3 @@
 
 
 ![](images/quick-sort-part-1.png)
-</p>
