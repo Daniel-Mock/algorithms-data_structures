@@ -1,7 +1,7 @@
 # algorithms-data_structures
 #### This repository is dedicated to tracking progress made on my goal of learning new algorithms and data structures useful in the area of Computer Engineering. 
  #### Reference: www.leetcode.com
- ![](images/lc.png)
+ ![](images/lc.png)  
 
 ## Schedule & Topics: 
 
@@ -42,3 +42,7 @@
 * https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide
 * https://www.techiedelight.com/ - explanation of some algorithms with pseudo code
 * https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns/439810 - Dynamic Programming Patterns
+
+## Sorting Algorithms Image Reference:
+* **Insertion Sort**
+![](images/insertionsort.png)
