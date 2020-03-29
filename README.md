@@ -46,3 +46,4 @@
 ## Sorting Algorithms Reference:
 ![](images/insertionsort.png)
 ![](images/Merge-Sort-Algorithm.png)
+![](images/quick-sort-part-1.png)
