@@ -41,3 +41,4 @@
 * https://leetcode.com/discuss/career/216554/from-0-to-clearing-uberappleamazonlinkedingoogle
 * https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide
 * https://www.techiedelight.com/ - explanation of some algorithms with pseudo code
+* https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns/439810 - Dynamic Programming Patterns
