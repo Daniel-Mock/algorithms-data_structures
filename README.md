@@ -45,6 +45,7 @@
 
 ## Sorting Algorithms Reference:
 <p align="center">
+ 
 ![](images/insertionsort.png)
 
 
