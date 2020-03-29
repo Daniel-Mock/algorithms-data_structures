@@ -45,3 +45,4 @@
 
 ## Sorting Algorithms Reference:
 ![](images/insertionsort.png)
+![](images/Merge-Sort-Algorithm.png)
