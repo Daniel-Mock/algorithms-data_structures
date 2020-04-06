@@ -18,30 +18,77 @@
 #         self.next = None
 
 
-
+'''
+Below are two different approaches to solving this problem using Python.
+The first approach creates a new list while the second approach manipulates the original list.
+The second approach is much faster but requires more logic.
+'''
 
 class Solution:
+'''
+The first approach seems to be the simpler of the two.
+Create a function that takes in a node and inserts it in ascending order into the new list
+'''
+    def insert_sort(self, node):
+    	#reference the new list
+        list_node = self.dummy
+
+    	#create a new node to insert into the new list
+        new_node = ListNode(node.val)
+
+    	#traverse the new list and find where to insert the new node
+        while list_node.next and node.val >= list_node.next.val:
+            list_node = list_node.next
+
+    	#insert the new node into the correct place in the new list
+        new_node.next = list_node.next
+        list_node.next = new_node
+
+
+
     def insertionSortList(self, head: ListNode) -> ListNode:
-        dummy = ListNode(0)
-        dummy.next = nodeToInsert = head
+    	#create a dummy node as a reference. This reduces some of the logic in the code
+        self.dummy = ListNode(0)
 
-        while head and head.next:
-            if head.val > head.next.val:
-                nodeToInsert = head.next
+    	#traverse the given list and call the function to construct the new list after each step
+        while head is not None:
+            self.insert_sort(head)
+            head = head.next
 
-                #init prev to head to find node that goes before the new insert
-                nodeToInsertPrev = dummy
-                while nodeToInsertPrev.next.val < nodeToInsert.val:
-                    nodeToInsertPrev = nodeToInsertPrev.next
+    	#return the reference to the new node
+        return self.dummy.next
+        
 
-                #reroute the linked list flow from the current position
-                head.next = nodeToInsert.next
+'''
+The second approach manipulates the original list and just moves around the nodes in the list to sorted order.
+This approach takes less time but seems a little more complicated
+'''
 
-                #Insert node to new position
-                nodeToInsert.next = nodeToInsertPrev.next
-                nodeToInsertPrev.next = nodeToInsert
+'''
+	def insertionSortList(self, head: ListNode) -> ListNode:
+		#create reference node that points to the original list given
+		dummy = ListNode(0)
+		dummy.next = nodeToInsert = head
 
-            else:
-                head = head.next
+		#step through the nodes in the given list and find nodes that need to be insert into sorted order.
+		while head and head.next:
+			if head.val > head.next.val:
+				nodeToInsert = head.next
 
-        return dummy.next
+				#init nodeToInsertPrev to head to find node that goes before nodeToInsert
+				nodeToInsertPrev = dummy
+				while nodeToInsertPrev.next.val < nodeToInsert.val:
+					nodeToInsertPrev = nodeToInsertPrev.next
+
+				#update head.next for the next iteration of the loop
+				head.next = nodeToInsert.next
+
+				#Insert node to new position
+				nodeToInsert.next = nodeToInsertPrev.next
+				nodeToInsertPrev.next = nodeToInsert
+
+			else:
+				head = head.next
+
+		return dummy.next
+'''
