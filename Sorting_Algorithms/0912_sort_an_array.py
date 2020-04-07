@@ -9,7 +9,13 @@
 #                                                                         #
 ###########################################################################
 
-
+'''
+This file contains several sorting Algorithms.
+Included are:
+    -Merge sort
+    -Insertion sort
+    -Quick sort
+'''
 
 #Merge Sort Algorithm
 class Solution:
@@ -47,3 +53,29 @@ class Solution:
                 nums[k] = R[j]
                 j+=1
                 k+=1
+
+'''
+#Insertion Sort Algorithm
+class Solution:
+    def sortArray(self, nums: List[int]) -> List[int]:
+        self.nums = nums
+        iter = 0
+        while iter < len(nums):
+            minVal = self.findMin(iter) #min(nums[iter:]), nums.index(min(nums[iter:]))
+            minValIndex = self.findPos(minVal, iter)
+            nums[iter], nums[minValIndex] = minVal, nums[iter]
+            iter+=1
+        return nums
+
+    def findMin(self, iter):
+        value = self.nums[iter]
+        for val in self.nums[iter:]:
+            if val < value:
+                value = val
+        return value
+
+    def findPos(self, minVal, iter):
+        for loc, val in enumerate(self.nums):
+            if loc >= iter and val == minVal:
+                return loc
+'''
