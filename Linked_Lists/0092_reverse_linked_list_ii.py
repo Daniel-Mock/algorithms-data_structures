@@ -53,4 +53,3 @@ class Solution:
 
         #return head
         return dummy.next
-        
