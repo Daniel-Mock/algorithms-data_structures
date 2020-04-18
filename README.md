@@ -42,6 +42,8 @@
 * https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide
 * https://www.techiedelight.com/ - explanation of some algorithms with pseudo code
 * https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns/439810 - Dynamic Programming Patterns
+* https://medium.com/leetcode-patterns/leetcode-pattern-2-sliding-windows-for-strings-e19af105316b - Sliding Window Patterns for Strings
+
 
 ## Sorting Algorithms Reference:
  
