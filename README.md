@@ -6,6 +6,8 @@
 
 * **Linked Lists**
 * **Tree Traversals**
+    * Bredth/Depth first
+    * Recursive/Iterative
     * Pre-order
     * In-order
     * Post-Order
