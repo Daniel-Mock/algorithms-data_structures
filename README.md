@@ -3,9 +3,7 @@
  #### Reference: www.leetcode.com
  ![](images/lc.png)  
 
-## Schedule & Topics: 
 
-### Jan 6 - March 1 (4 weeks)
 * **Linked Lists**
 * **Tree Traversals**
     * Pre-order
@@ -20,7 +18,6 @@
 * **Stacks/Queues**
 * **Hash Tables**
 
-### March 2 - March 23 (3 Weeks)
 * **Sorting Algoriths** 
     * Insertion 
     * Selection
@@ -28,12 +25,9 @@
     * Quick
     * Shortest path
     
-### March 16 - April 5 (3 weeks)
 * **Sliding Window**
 * **Dynamic Programming**
 
-### April 6 - April 23 (2 weeks)
-* **Review topics***
 
 ## Useful Links:
 * https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
