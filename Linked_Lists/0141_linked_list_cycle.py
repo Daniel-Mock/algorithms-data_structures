@@ -28,3 +28,17 @@ class Solution:
             node2 = node2.next.next
 
         return True
+        
+    #simple visited list populate & check
+    '''
+    def hasCycle(self, head: ListNode) -> bool:
+    if head is None: return False
+    if head.next is None: return False
+    visited_list = []
+    while head:
+        if head in visited_list:
+            return True
+        visited_list.append(head)
+        head = head.next
+    return False
+    '''
