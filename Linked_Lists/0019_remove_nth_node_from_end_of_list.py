@@ -16,6 +16,24 @@
 #         self.val = x
 #         self.next = None
 
+#single pass
+class Solution:
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        node_mem = []
+        if head.next is None: return
+        while head:
+            node_mem.append(head)
+            head = head.next
+        if n == 1:
+            node_mem[-n-1].next = None
+        elif n == len(node_mem):
+            node_mem[0].next = None
+            node_mem.pop(0)
+        else:
+            node_mem[-n-1].next = node_mem[-n+1]
+        return node_mem[0]
+
+'''
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         if head is None: return head
@@ -35,3 +53,5 @@ class Solution:
         curr.next = curr.next.next
 
         return empty.next
+
+'''
